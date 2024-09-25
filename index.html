@@ -1,63 +1,83 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Programação 2</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles/reset.css">
+    <link rel="stylesheet" href="styles/styles.css">
 </head>
+
 <body>
-   <header>
-     <h1>Programação 2</h1>
-   </header>
 
-   <aside>
-    <nav>
-        <ul>
-            <li><a>Material das Aulas</a></li>
-            <li><a>Material de apoio</a></li>
-            <li><a>Atividades</a></li>
-            <li><a>Contato com o professor</a></li>
-        </ul>
-    </nav>
-   </aside>
-   
-   <main>
-    <section>
-        <h2>Apresentação da disciplina</h2>
-        <article>
-            <h3>Ementa:</h3>
-            <p>
-                Esta disciplina visa apresentar técnicas mais avançadas de programação em relação ao 
-                já aprendido pelos alunos nas disciplinas anteriores do curso. 
-                São estudados: programação com estruturas de dados (struct). 
-                Ponteiros e alocação dinâmica de memória. Tipos abstratos de dados. 
-                Programação com listas estáticas e dinâmicas. 
-                Recursividade. Desenvolvimento de jogos com estruturas básicas de 
-                programação (sem uso de bibliotecas e motores). 
-                Criação e leitura de arquivos tipo texto e de dados.
-            </p>
-        </article>
+    <header class="header">
+        <div class="content header-content">
+            <h1 class="main-title">Programação II</h1>
+            <nav>
+                <ul class="nav-bar">
+                    <li class="nav-bar-li">
+                        <a class="nav-bar-link">Material das Aulas</a>
+                    </li>
+                    <li class="nav-bar-li">
+                        <a class="nav-bar-link">Material de apoio</a>
+                    </li>
+                    <li class="nav-barl-li">
+                        <a class="nav-bar-link">Atividades</a>
+                    </li>
+                    <li class="nav-bar-li">
+                        <a class="nav-bar-link">Contato com o professor</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    
+    <main class="container main-container">
+        <section class="section content">
+            <h2 class="title">Apresentação da disciplina</h2>
+            <article>
+                <h3 class="subtitle">Ementa:</h3>
+                <p class="text">
+                    Esta disciplina visa apresentar técnicas mais avançadas de programação em relação ao
+                    já aprendido pelos alunos nas disciplinas anteriores do curso.
+                    São estudados: programação com estruturas de dados (struct).
+                    Ponteiros e alocação dinâmica de memória. Tipos abstratos de dados.
+                    Programação com listas estáticas e dinâmicas.
+                    Recursividade. Desenvolvimento de jogos com estruturas básicas de
+                    programação (sem uso de bibliotecas e motores).
+                    Criação e leitura de arquivos tipo texto e de dados.
+                </p>
+            </article>
 
-        <article>
-            <h3>Conhecimento (conteúdo programático):</h3>
-            <ul>
-                <li>História da linguagem C</li>
-                <li>Compiladores</li>
-                <li>Ambiente integrado de desenvolvimento IDE </li>
-                <li>Conceitos básicos de programação em C</li>
-                <li>Tabela ASCII</li>
-                <li>Matrizes</li>
-                <li>Modularização</li>
-                <li>Variáveis do tipo record (struct)</li>
-                <li>Ponteiros em C</li>
-                <li>Interagindo com arquivos em C</li>
-            </ul>
-        </article>
-    </section>
-   </main>
-   
-   <footer>
-        <p>Copyright&copy;Faculdades Integradas de Taquara</p>
-   </footer>
+            <article>
+                <h3 class="subtitle">Conhecimento (conteúdo programático):</h3>
+                <ul>
+                    <li>História da linguagem C</li>
+                    <li>Compiladores</li>
+                    <li>Ambiente integrado de desenvolvimento IDE </li>
+                    <li>Conceitos básicos de programação em C</li>
+                    <li>Tabela ASCII</li>
+                    <li>Matrizes</li>
+                    <li>Modularização</li>
+                    <li>Variáveis do tipo record (struct)</li>
+                    <li>Ponteiros em C</li>
+                    <li>Interagindo com arquivos em C</li>
+                </ul>
+            </article>
+        </section>
+    </main>
+    
+
+
+    <footer class="container footer">
+        <p class="copyright">Copyright&copy;Faculdades Integradas de Taquara</p>
+    </footer>
 </body>
+
 </html>
