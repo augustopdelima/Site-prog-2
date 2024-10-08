@@ -1,15 +1,18 @@
+html {
+    width: 100%;
+    height: 100%;
+}
+
+
 body {
-    height: 100vh;
-    width: 100vw;
+    height: 100%;
+width: 100%;
     display: flex;
     font-family: "Roboto", sans-serif;
     flex-direction: column;
     gap: 20px;
 }
 
-* {
-    box-sizing: border-box;
-}
 
 .header {
     height: 80px;
@@ -17,7 +20,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 20px;
+    padding: 16px;
     background: rgb(2,0,36);
     background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 50%, rgba(0,212,255,1) 100%); 
 }
@@ -72,6 +75,7 @@ body {
 }
 
 .card{
+    box-sizing: border-box;
     width: 100%;
     padding: 20px;
     display: flex;
@@ -97,9 +101,9 @@ body {
 }
 
 .footer {
-    padding: 20px;
+    padding: 10px;
     color: white;  
-    height: 80px;
+    height: 40px;
     background: rgb(2,0,36);
     background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 50%, rgba(0,212,255,1) 100%); 
 }
@@ -138,5 +142,10 @@ b{
 
     .section {
         width: 100%;
+    }
+
+
+    .header {
+        height: 100%;
     }
 }
