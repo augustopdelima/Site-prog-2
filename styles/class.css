@@ -1,0 +1,26 @@
+.material-link {
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgb(2, 1, 36) 0%, rgba(9,9,121,1) 80%, rgb(1, 105, 126) 100%);
+    width: 180px; 
+    text-align: center;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 16px;
+    border-radius: 5px;
+    transition: transform 0.3s ease;
+}
+
+.material-link::before {
+    content: '📋 ';
+}
+
+.class-section {
+    gap:20px;
+}
+
+.material-link:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+}
