@@ -9,6 +9,7 @@
     border-collapse: collapse;
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
     background-color: #fff;
+    overflow-x: auto; 
 }
 
 .table-header .header-cell {
@@ -92,4 +93,12 @@
     color: #0056b3;
     text-decoration: underline;
     cursor: pointer;
+}
+
+@media (max-width: 480px) {
+    .table-header .header-cell, 
+    .table-row .table-cell {
+        padding: 8px;
+        font-size: 12px;
+    }
 }
