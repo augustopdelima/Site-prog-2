@@ -1,0 +1,90 @@
+.main-contact {
+    width: 70%;
+    margin: auto;
+}
+
+.contact-container {
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+}
+
+.card-contact{
+    background-color: white;
+    padding: 20px;
+    position: relative;
+    margin-top: 15px;
+    align-items: baseline;
+    width: 60%;
+}
+
+.card-contact h3 {
+    font-size: 1.2em;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.card-contact p {
+    color: #666;
+    font-size: 0.9em;
+}
+
+.contact-form {
+    z-index: 1;
+    padding: 40px;
+    border-radius: 2px;
+    max-width: 500px;
+    margin-left: 20px;
+    background: rgb(2,0,36);
+    background: linear-gradient(0deg, rgb(4, 0, 68) 0%, rgba(9,9,121,1) 60%, rgb(1, 176, 211) 100%); 
+}
+
+.contact-form h2{
+    font-size: 1.8em;
+    margin-bottom: 30px;
+    margin-left: 9%;
+    color: white ;
+    align-items: center;
+}
+
+.contact-form input,textarea{
+    align-items: center;
+    padding: 10px;
+    width: 80%;
+    margin-left: 9%;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+}
+
+.contact-form textarea{
+    height: 100px;
+}
+
+.contact-form button{
+    background-color: #2176bd;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 1em;
+    transition: background-color 0.3s;
+    margin-top: 10px;
+    margin-left: 40%;
+}
+
+.contact-form button:hover {
+    background-color: #0059a6;
+}
+
+.info-cards {
+    display: flex;
+    flex-direction: column;
+    gap: 19px;
+    position: absolute;
+    right: 0;
+    left: 10%;
+    position: relative;
+    z-index: 2;
+}
